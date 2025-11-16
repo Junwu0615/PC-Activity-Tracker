@@ -28,4 +28,4 @@ jobs:
           echo "Random: $RANDOM $(date)" >> log.txt
           git add date.txt
           git commit -m "Daily update: $(date)" || echo "No changes to commit"
-          git push
+          git push origin main
